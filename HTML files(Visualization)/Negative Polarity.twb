@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.1017.1259                               -->
+<workbook original-version='18.1' source-build='2019.3.1 (20193.19.1017.1259)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='sentiment_make_data' inline='true' name='federated.0g1nclj12exw6119t75cp1hc959u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='sentiment_make_data' name='textscan.1rb9w2o01uhy34163oa1c0zh4ahy'>
+            <connection class='textscan' directory='C:/Users/Azeez/Desktop/DS_Brainstation/Python Lecture/Capstone/Final project' filename='sentiment_make_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1rb9w2o01uhy34163oa1c0zh4ahy' name='sentiment_make_data.csv' table='[sentiment_make_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='make' ordinal='1' />
+            <column datatype='real' name='pct_pol_positve' ordinal='2' />
+            <column datatype='real' name='pct_pol_negative' ordinal='3' />
+            <column datatype='real' name='pct_pol_neutral' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sentiment_make_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[sentiment_make_data.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>make</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[make]</local-name>
+            <parent-name>[sentiment_make_data.csv]</parent-name>
+            <remote-alias>make</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_pol_positve</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_pol_positve]</local-name>
+            <parent-name>[sentiment_make_data.csv]</parent-name>
+            <remote-alias>pct_pol_positve</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_pol_negative</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_pol_negative]</local-name>
+            <parent-name>[sentiment_make_data.csv]</parent-name>
+            <remote-alias>pct_pol_negative</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_pol_neutral</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_pol_neutral]</local-name>
+            <parent-name>[sentiment_make_data.csv]</parent-name>
+            <remote-alias>pct_pol_neutral</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Make' datatype='string' name='[make]' role='dimension' type='nominal' />
+      <column caption='Pct Pol Negative' datatype='real' name='[pct_pol_negative]' role='measure' type='quantitative' />
+      <column caption='Pct Pol Neutral' datatype='real' name='[pct_pol_neutral]' role='measure' type='quantitative' />
+      <column caption='Pct Pol Positve' datatype='real' name='[pct_pol_positve]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.429539' measure-ordering='alphabetic' measure-percentage='0.570461' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Arab Emirates&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>NEGATIVE POLARITY OF EACH BRAND</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sentiment_make_data' name='federated.0g1nclj12exw6119t75cp1hc959u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0g1nclj12exw6119t75cp1hc959u'>
+            <column caption='Make' datatype='string' name='[make]' role='dimension' type='nominal' />
+            <column-instance column='[make]' derivation='None' name='[none:make:nk]' pivot='key' type='nominal' />
+            <column caption='Pct Pol Negative' datatype='real' name='[pct_pol_negative]' role='measure' type='quantitative' />
+            <column-instance column='[pct_pol_negative]' derivation='Sum' name='[sum:pct_pol_negative:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0g1nclj12exw6119t75cp1hc959u].[none:make:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]' scope='rows' value='Percentage of Negative Polarity' />
+            <format attr='auto-subtitle' class='0' field='[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]' scope='rows' value='true' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0g1nclj12exw6119t75cp1hc959u].[none:make:nk]' value='235' />
+            <format attr='text-format' field='[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]' value='n#,##0.00&quot;%&quot;;-#,##0.00&quot;%&quot;' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]' />
+              <text column='[federated.0g1nclj12exw6119t75cp1hc959u].[none:make:nk]' />
+              <text column='[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]</rows>
+        <cols>[federated.0g1nclj12exw6119t75cp1hc959u].[none:make:nk]</cols>
+      </table>
+      <simple-id uuid='{79681FD7-07F2-456F-87B4-17D6B11BB809}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0g1nclj12exw6119t75cp1hc959u].[sum:pct_pol_negative:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0g1nclj12exw6119t75cp1hc959u].[none:make:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A5F9B534-19C3-4B38-9EC4-D3AAC56D84C4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
