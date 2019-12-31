@@ -56,11 +56,11 @@ NLTK (Words tokenizer, stopwords and WordNetLemmatizer)
    * Remove null-values i.e rows with no reviews
    * Drop some unwanted columns
    * Do some feature engineering
-   * Change the data type of some of the columns
+   * Change the data type of some of the columns like date column
    * Remove stop-words with NLTK
    * Remove number from text with regular expression function
    * Lower the text and remove words lower than 3 letters
-   * Bring the text back to base form by lemmatizing the text with Spacy
+   * Bring the text back to it's base via lemmatization with Spacy
 * EDA
     * Do some visualization, e.g wordcloud to uderstand the common words in the review
 * LDA Model fitting for topic modeling 
