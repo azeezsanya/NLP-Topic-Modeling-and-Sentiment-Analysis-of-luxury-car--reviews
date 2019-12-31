@@ -6,7 +6,8 @@ In machine learning and natural language processing, a **topic model** is a stat
 
 NLP could be used to extract topics from reviews, social media feeds, comments, articles, emails as well as user feedbacks. Understanding what customers are talking about in a particular product is very vital to companies especially e-commerce industry. However, since these online reviews are quite often overwhelming in terms of numbers and information, an intelligent system, capable of finding key insights (topics) from these reviews, will be of great help for both customers and companies. The goal of my project is to help customers make a decision when buying luxury cars and help these car brands to understand what their customers are saying and make some improvements on their products. 
 I got a lot of inspiration from [this article](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/) and [this article](https://www.analyticsvidhya.com/blog/2018/10/mining-online-reviews-topic-modeling-lda/) by PRATEEK JOSHI
-Some part of this project was based on [Alice Zhao](https://github.com/adashofdata/nlp-in-python-tutorial) project on Topic modeling and Sentiment Analysis
+
+I also learn from [Alice Zhao's](https://github.com/adashofdata/nlp-in-python-tutorial) project on Topic modeling and Sentiment Analysis
 
 One of the most effective ways of doing topic modeling is by using Gensim LDA model. In this project we will be using the following 2 versions of gensim LDA model to see which one is the fastest computationally, provides meaningful topics and has the best coherence score:
 *  **LDAMulticore**
