@@ -22,6 +22,7 @@ My project will be using **NLP and Latent Dirichlet Allocation (LDA) for topic m
 
 *  **With the customer reviews, I want to use NLP and LDA to understand what are the qualities that are important to buyers.** 
 *  **I will also investigate the sentiment of the reviews**
+You can find the codes of these two questions in the Python code Folder
 
 # Tools and Libraries used #
 NLTK (Words tokenizer, stopwords and WordNetLemmatizer)
