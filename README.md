@@ -49,7 +49,7 @@ NLTK (Words tokenizer, stopwords and WordNetLemmatizer)
 
 *  **7 columns**
 # Project Process #
-* I got the datasets from this [link](https://www.kaggle.com/ankkur13/edmundsconsumer-car-ratings-and-reviews)
+* I got the datasets from this [link](https://www.kaggle.com/ankkur13/edmundsconsumer-car-ratings-and-reviews). You can find the merged dataset on *CSV FILES* on my GitHub page
    * load and merge the 5 dataset in one dataframe
    * check the data info, type, shape and null values
 * Pre-processing
