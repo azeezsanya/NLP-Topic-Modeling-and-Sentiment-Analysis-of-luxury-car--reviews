@@ -69,6 +69,9 @@ NLTK (Words tokenizer, stopwords and WordNetLemmatizer)
 *  Sentiment Analysis
    * Do some feature engineering to get the sentiment in the reviews
    * Used TextBlob to derive the polarity and subjectivity in the reviews
+   
+   update
+   * I will be using LSTM to explore more on Sentiment Analysis
 * Visualization
    * Plot the the topics PyLDAviz
    * Use both plotly and Tableau to visualize the result of the sentiments
