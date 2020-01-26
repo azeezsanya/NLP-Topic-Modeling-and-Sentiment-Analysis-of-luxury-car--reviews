@@ -21,7 +21,7 @@ There has been a rapid growth in sales of luxury cars over the last decade espec
 My project will be using **NLP and Latent Dirichlet Allocation (LDA) for topic modeling and sentiment analysis of the reviews of 5 luxury car brands**
 
 *  **With the customer reviews, I want to use NLP and LDA to understand what are the qualities that are important to buyers.** 
-*  **I will also investigate the sentiment of the reviews**
+*  **I will also investigate the sentiment in the reviews**
 You can find the codes of these two questions in the Python code Folder
 
 # Tools and Libraries used #
