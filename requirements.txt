@@ -1,0 +1,14 @@
+Spacy
+Seaborn 
+Matplotlib
+Gensim 
+TextBlob 
+LDAMallet (http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip)
+Pickle
+WordCloud
+Plotly
+Numpy and Pandas
+PyLDAViz
+
+
+
