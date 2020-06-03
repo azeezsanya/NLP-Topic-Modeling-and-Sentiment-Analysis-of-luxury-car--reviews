@@ -1,3 +1,5 @@
+![Image description](Project__illustration.jpg)
+
 # Introduction #
 
 Natural Language Processing is a Machine Learning method used to teach computers how to understand natural human language. It is not an easy task to teach these languages to a computer, but with the help of **NLP** process it's possible for the computer to read, decipher, understand, and make sense of the human languages in a manner that is valuable. 
