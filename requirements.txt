@@ -8,6 +8,7 @@ Pickle
 WordCloud
 Plotly
 Numpy and Pandas
+Tableau
 PyLDAViz
 
 
